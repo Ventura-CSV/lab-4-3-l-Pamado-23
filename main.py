@@ -11,8 +11,13 @@ def main():
     ########################################
     """
 
+    for num in numbers:
+        total += num
+
+
     # total = sum(numbers)
     print(total)
+
 
     ########################################
     # Do not delete the return statement
